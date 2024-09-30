@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 5rem;
+  padding-block: 1rem;
+  background-color: #007200;
+}
+
+.footer ul li{
+  font-size: 14px;
+}
+
+.footer .links,.footer .follow-up{
+  text-align: left;
+}
+
+.footer .links h1,.footer .follow-up h1{
+  font-weight: 700;
+}
+

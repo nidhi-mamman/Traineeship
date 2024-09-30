@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    height: 2rem;
+    background-color: #327928;
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    padding-top:0.3rem;
+    gap: 2rem;
+    padding-inline-start: 5rem;
+}
+
+.nav-bar ul li{
+    color:black;
+    font-weight: 600;
+}

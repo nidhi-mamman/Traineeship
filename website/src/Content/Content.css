@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  background-color: #f0f0f0;
+  text-align: justify;
+  display: flex;
+  gap: 3rem;
+  padding-inline-start: 5rem;
+}
+
+.section .left {
+  width: 60%;
+}
+
+.section h1 {
+  color: black;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.section p {
+  color: black !important;
+  font-size: 16px;
+}
+
+.black {
+  color: black !important;
+}
+
+.section .lorem {
+  margin-inline-start: 3rem;
+  padding-left: 0.3rem;
+  border-top: 0;
+  font-size: 15px;
+  border-bottom: 0;
+  border-right: 0;
+  color: black;
+  border-left: 2px solid green;
+}
+
+.green {
+  color: #38b000;
+}
+
+.right {
+  background-color: #b1a7a6;
+  height: 32rem;
+  padding: 2rem;
+  width: 20rem;
+}
+
+.right ul li {
+  color: black;
+}
